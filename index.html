@@ -1,0 +1,244 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sarbo's Portfolio</title>
+  <link href='./stylesheets/style.css' rel='stylesheet'>
+
+  <link rel="apple-touch-icon" sizes="180x180" href="./resources/favicon/apple-touch-icon.png">
+  <link rel="shortcut icon" href="./resources/favicon/favicon.ico" type="image/x-icon">
+  <link rel="icon" type="image/png" sizes="32x32" href="./resources/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./resources/favicon/favicon-16x16.png">
+  <link rel="manifest" href="./resources/favicon/site.webmanifest">
+
+  <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+  <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css">
+
+  <style>
+    .material-symbols-outlined {
+      font-variation-settings:
+        'FILL' 0,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="nav">
+    <ul class="navbar">
+      <li><a href="#projects" class="projects">projects🡥</a></li>
+      <li><a href="./resources/cv.pdf" target="_blank" rel="noopener noreferrer"
+          class="resume">r&eacute;sum&eacute;🡥</a></li>
+      <li><a href="#contact" class="contact-link">contact🡥</a></li>
+    </ul>
+  </div>
+  <div class="copy">
+
+    <div class="yr" onclick="yr()">
+      <span class="larr">⟵</span>
+      <span class="copyright">&copy;</span>
+      <span class="year"></span>
+    </div>
+
+  </div>
+  <div class="hero">
+    <div class="name">
+      <span class="fname">SARBO</span>
+      <span class="lname">SARCAR</span>
+    </div>
+    <div class="desig">
+      <span class="dev">Developer</span> |
+      <span class="stud">Student</span>
+    </div>
+    <div class="cta1" onclick="cta1()">
+      <div class="port">
+        <a href="#projects" class="btnp">View Projects ></a>
+      </div>
+    </div>
+    <div class="chevron">
+      <a href="#about" class="chevarr">
+        <span class="material-symbols-outlined">
+          keyboard_double_arrow_down
+        </span>
+      </a>
+    </div>
+  </div>
+
+  <div class="about" id="about">
+    <div class="pp">
+      <img src="/resources/abt.png" alt="profile photo" class="pp-img">
+    </div>
+    <div class="aboutme">
+      <h1 class="hello">
+        <ol class="helo-msgs">
+          <li><span class="hello-msg">Hello</span></li>
+          <li><span class="hello-msg">Bonjour</span></li>
+          <li><span class="hello-msg">Hallo</span></li>
+          <li><span class="hello-msg">Hola</span></li>
+          <li><span class="hello-msg">Olá</span></li>
+          <li><span class="hello-msg">Ciao</span></li>
+          <li><span class="hello-msg">こんにちは</span></li>
+          <li><span class="hello-msg">你好</span></li>
+          <li><span class="hello-msg">안녕하세요</span></li>
+          <li><span class="hello-msg">नमस्ते</span></li>
+          <li><span class="hello-msg">নমস্কার</span></li>
+        </ol>
+      </h1>
+      <p class="about-text txt-1">
+        I'm Sarbo.
+      </p>
+      <p class="about-text txt-2">
+        As a research-driven science enthusiast and technology aficionado, I thrive on pushing beyond academic boundaries to create practical, innovative solutions by leveraging cutting-edge technologies to solve real-world problems. I'm committed to transforming curiosity into action - one problem at a time, with creativity and efficient code.
+      </p>
+    </div>
+    <div class="cta1 cta2">
+      <div class="port">
+        <a href="./resources/cv.pdf" class="btnp">R&eacute;sum&eacute; ></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="edu">
+
+  </div>
+
+  <div class="projects-grid" id="projects">
+    <h1 class="proj-title">Where Code Meets Creativity</h1>
+    <div class="bento">
+
+      <!-- Project 1 -->
+      <div class="box box1">
+        <div class="title-proj">
+          <span class="proj1">SimpliPy🡥</span>
+        </div>
+        <div class="details">
+          <img src="./resources/simplipy.png" alt="SimpliPy" class="proj-img">
+          <pre>
+{
+  "SimpliPy": {
+    "description": "Flask-based song recommendation web app.",
+    "technologies": ["Flask", "CSS", "HTML"],
+    "repo": "<a href="https://github.com/sarbosarcar/SimpliPy" class="proj-link" target="_blank">https://github.com/sarbosarcar/SimpliPy</a>",
+    "deployment": "<a href="https://simplipy.onrender.com" class="proj-link" target="_blank">https://simplipy.onrender.com</a>"
+  }
+}
+          </pre>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="box box2">
+        <div class="title-proj">
+          <span class="proj1">EduPy🡥</span>
+        </div>
+        <div class="details">
+          <img src="./resources/edupy.png" alt="SimpliPy" class="proj-img">
+          <pre>
+{
+  "EduPy": {
+    "description": "Flask-based web app recommending undergraduate courses in Europe.",
+    "technologies": ["Flask", "CSS", "HTML"],
+    "repo": "<a href="https://github.com/sarbosarcar/EduPy" class="proj-link" target="_blank">https://github.com/sarbosarcar/EduPy</a>",
+    "deployment": "<a href="https://edupy.onrender.com" class="proj-link" target="_blank">https://edupy.onrender.com</a>"
+  }
+}
+          </pre>
+
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="box box3">
+        <div class="title-proj">
+          <span class="proj1">CodiPy🡥</span>
+        </div>
+        <div class="details">
+          <img src="./resources/codipy.png" alt="SimpliPy" class="proj-img">
+          <pre>
+{
+  "CodiPy": {
+    "description": "GUI-based code generation platform using OpenAI Codex model.",
+    "technologies": ["HTML", "OpenAI API"],
+    "repo": "<a href="https://github.com/sarbosarcar/CodiPy" class="proj-link" target="_blank">https://github.com/sarbosarcar/CodiPy</a>"
+  }
+}
+          </pre>
+        </div>
+      </div>
+
+      <!-- Project 4 -->
+      <div class="box box4">
+        <div class="title-proj">
+          <span class="proj1">Air Mouse🡥</span>
+        </div>
+        <div class="details">
+          <pre>
+{
+  "Air-Mouse": {
+    "description": "Virtual mouse using hand gestures for pointer control.",
+    "technologies": ["Python", "OpenCV"],
+    "repo": "<a href="https://github.com/sarbosarcar/Air-Mouse" class="proj-link" target="_blank">https://github.com/sarbosarcar/Air-Mouse</a>"
+  }
+}
+          </pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="contact-secn" id="contact">
+    <h1 class="contact-title">Let's build something awesome</h1>
+    <div class="contact">
+      <div class="link-grid">
+        <textarea id="email-txt" class="email-txt" placeholder="Enter text to send. (or leave it blank)"></textarea>
+        <div class="mail" onclick="mail()">
+          Send an email to connect with me 🡥
+        </div>
+        <div class="icons">
+          <div class="linkedin" onclick="linkedin()">
+
+          </div>
+          <div class="github" onclick="github()">
+
+          </div>
+
+        </div>
+      </div>
+      <div class="contact-pic">
+        <img src="./resources/contact.png" alt="contact photo" class="cont-pic">
+      </div>
+    </div>
+  </div>
+
+  <div class="footer" id="footer">
+    <div class="txt">
+      Made with ♡ by&nbsp;<div class="footer-link"><a href="https://github.com/sarbosarcar"
+          class="foot">@sarbosarcar🡥</a></div>
+    </div>
+    <div class="filler-content">
+      ⚲ Kolkata, India
+    </div>
+
+  </div>
+
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script defer type="text/javascript" src="./scripts/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/kursor@0.0.14/dist/kursor.js"></script>
+
+</body>
+
+</html>
