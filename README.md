@@ -2,6 +2,8 @@
 
 This is the repository for my personal portfolio website. This site serves as a platform to showcase my academic journey, technical expertise, and projects.
 
+![screenshot](https://i.ibb.co/Jsv8N4F/Screenshot-2024-10-26-164306.png)
+
 ## Website Overview
 The website is designed to reflect my passion for technology and research-driven problem-solving. It features:
 
